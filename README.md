@@ -1,24 +1,19 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+1. Install Rails at the command prompt if you haven't yet:
 
-* Ruby version
+        $ git clone https://github.com/omedale/JWT-Auth-with-Wails.git
 
-* System dependencies
+2. Change directory to `my_api_app` 
 
-* Configuration
+        $ cd my_api_app
 
-* Database creation
 
-* Database initialization
+3. Install application dependencies:
 
-* How to run the test suite
+        $ bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+4. start the web server:
 
-* Deployment instructions
-
-* ...
+        $ rails s
